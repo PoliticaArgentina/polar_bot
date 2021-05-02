@@ -1,5 +1,8 @@
 # Twitter bot electoral para {polAr}
 
+**El diseño del bot está basado en [ggplotme](https://twitter.com/ggplotme) de [Juan Cruz Rodriguez](jcrodriguez1989)**.
+
+---
 ## Descricpción del proyecto
 
 * Script para generar archivo `.rds` con Token generado para acceso a la cuenta de Twitter 
