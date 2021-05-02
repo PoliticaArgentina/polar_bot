@@ -1,0 +1,6 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.twitter_token.rds
+create_real_twitter_token.R
