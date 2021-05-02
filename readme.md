@@ -5,9 +5,9 @@
 ---
 ## Descricpción del proyecto
 
-* Script para generar archivo `.rds` con Token generado para acceso a la cuenta de Twitter 
+* [Script](https://github.com/PoliticaArgentina/polar_bot/blob/master/scripts/twitter_dev_tokens.R) para generar archivo `.rds` con Token generado para acceso a la cuenta de Twitter 
 
-* archivo `bot.R` que se comunica con API de _Twitter_ y busca menciones a la cuenta del bot,  consultando por resultados de una elección. El script realiza una serie de filtrados para minimizar respuestas a menciones que no tienen relación con una elección. Cumplido esos pasos genera un data set `mentions2` que son los tuits que debe responder. 
+* archivo [`bot.R`](https://github.com/PoliticaArgentina/polar_bot/blob/master/scripts/bot.R) que se comunica con API de _Twitter_ y busca menciones a la cuenta del bot,  consultando por resultados de una elección. El script realiza una serie de filtrados para minimizar respuestas a menciones que no tienen relación con una elección. Cumplido esos pasos genera un data set `mentions2` que son los tuits que debe responder. 
 
 * la función `post_the_tweet` , junto a `mentions2` son pasadas en una iteración para ir respondiendo las menciones filtradas una a una. Si se encuentra la elección se grafircará el resultado y se guarda archivo en plots. Si no se encuentera en el repo, se responderá un mensaje de error con un archivo pre cargado en carpeta plots. 
 
