@@ -1,4 +1,4 @@
-# Twitter bot electoral para {polAr}
+# Twitter bot electoral para {polAr} <a><img src="hex/polArbot.png" width="200" align="right" /></a>
 
 * El diseño del _bot_ está basado en **[ggplotme](https://twitter.com/ggplotme)** de [@jcrodriguez1989](https://github.com/jcrodriguez1989/). 
 
